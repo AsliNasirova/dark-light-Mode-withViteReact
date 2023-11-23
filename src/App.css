@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: white;
+  --main-text-color: rgb(155, 34, 34);
+  --secondory-bg-color: blue;
+  --secondary-text-color: white;
+  
+}
+.dark{
+  --main-bg-color: black;
+  --main-text-color: white;
+  --secondory-bg-color: rgb(255, 0, 64);
+  --secondary-text-color: black;
+}
+body{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+h1{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+p{
+  background-color: var(--secondary-bg-color);
+  color: var(--secondory-text-color);
+}
+/* hr{
+
+} */
+.card{
+  background-color: var(--secondary-bg-color);
+  color: var(--secondory-text-color);
+}
